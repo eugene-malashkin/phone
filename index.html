@@ -15,22 +15,23 @@
       padding: 0;
     }
     .one {
-      position: absolute;
-      left: 10px;
-      right: 10px;
-      top: 10px;
-      bottom: 10px;
+      height: 100vh;
       background-color: #0f72b8;
+      position: relative;
     }
     .two {
       position: absolute;
       bottom: 0;
+    }
+    .bottom-hidden-spacer {
+      height: 1px;
     }
   </style>
 </head>
 <body>
 <div class="one">
   <div class="two">Bla-bla</div>
+  <div class="bottom-hidden-spacer"></div>
 </div>
 </body>
 </html>
